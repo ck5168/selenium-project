@@ -8,7 +8,7 @@ import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 
 import com.ck.common.util.DATE;
-import com.ck.qa.selenium.utils.SeleniumCSR;
+import com.ck.qa.selenium.utils.SeleniumCXR;
 
 public class XXA1_1300 {
 	
@@ -18,7 +18,7 @@ public class XXA1_1300 {
 	
 	public void execute(WebDriver driver) throws InterruptedException{
 		
-		SeleniumCSR utils = new SeleniumCSR(driver);
+		SeleniumCXR utils = new SeleniumCXR(driver);
 		
 		utils.clickSysMenu("Accident insurance System");	
 		utils.clickMenu("New Contract","Travel");
